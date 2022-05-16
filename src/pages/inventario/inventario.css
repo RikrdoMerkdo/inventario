@@ -1,14 +1,8 @@
-#container{
+#containerInve{
     background: #ffff;
 }
 #header p{
     color: #ffff;
-}
-#header{
-    text-align: center;
-    background: rgb(0, 52, 150);
-    height: 60px;
-    top: 0;
 }
 #itemNombre{
     font-size: 14px;
@@ -20,4 +14,10 @@
 #descrip{
     display: flex;
     gap: 2rem;
+}
+#barra{
+    background: rgb(0, 52, 150);
+}
+p{
+    color: #ffff;
 }

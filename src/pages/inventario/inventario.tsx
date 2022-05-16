@@ -1,15 +1,19 @@
 import { IonPage, IonInput, IonLabel, IonSelect, IonButton, IonSelectOption, IonList, IonItem, IonContent, IonHeader, IonToolbar, IonTitle } from '@ionic/react';
-import './principal.css';
+import './inventario.css';
 
-const pPrincipal: React.FC = () => {
+const inventario: React.FC = () => {
     return (
         <IonPage>
-                <div id="header">
+            <IonHeader>
+                <div id="barra">
+                <IonToolbar color="rgb(0, 52, 150)">
                     <p>Inventario Diario</p>
+                </IonToolbar>
                 </div>
+            </IonHeader>
             <IonContent>
-                <div id="container">
-                    <div id="items">
+                <div id="containerInve">
+                    <div id="itemsInve">
                         <IonList>
                             <IonItem>
                                 <IonLabel>Material</IonLabel>
@@ -99,4 +103,4 @@ const pPrincipal: React.FC = () => {
         );
     };
     
-export default pPrincipal;
+export default inventario;

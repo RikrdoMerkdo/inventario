@@ -4,7 +4,7 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 :root {
   /** color fondo **/
-  --ion-color-fondo: rgb(0, 52, 150);
+  /*--ion-color-fondo: rgb(0, 52, 150);*/
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

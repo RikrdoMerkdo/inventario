@@ -1,0 +1,38 @@
+#containerIngre{
+    background: rgb(0, 52, 150) !important;
+    height: 100%;
+}
+#headerIngre{
+    height: 35%;
+}
+#footerIngre{
+    background: #ffff;
+    border-radius: 20px 20px 0px 0px;
+    height: 75%;
+}
+h3{
+    padding-top: 5px;
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+#btnIngresar{
+    background: rgb(0, 52, 150);
+    height: 2rem;
+    width: 15rem;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 10% ;
+    margin-top: 20px ;
+}
+#itemIngre{
+    padding-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+}
+#pieIngre{
+    margin-top: 50px;
+    margin-left: 40%;
+}

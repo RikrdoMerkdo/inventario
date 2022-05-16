@@ -1,16 +1,16 @@
-import { IonPage, IonInput, IonLabel, IonItem, IonImg } from '@ionic/react';
-import './Home.css';
+import { IonPage, IonInput, IonLabel, IonItem } from '@ionic/react';
+import './registro.css';
 
-const Home: React.FC = () => {
+const registro: React.FC = () => {
   return (
     <IonPage>
-        <div id="container">
-          <div id="header">
-            <img src='././public/assets/icon/icon.png'/>
+        <div id="containerRegis">
+          <div id="headerRegis">
+            <img src='assets/icon/logo-conelec_movil.png'/>
           </div>
-          <div id="footer">
-            <p>Inventario Diario</p>
-            <div id="item">
+          <div id="footerRegis">
+            <div id="itemRegis">
+              <h2>Inventario Diario</h2>
               <IonItem>
                 <IonLabel position='floating'>Servidor</IonLabel>
                 <IonInput></IonInput>
@@ -28,11 +28,15 @@ const Home: React.FC = () => {
                 <IonInput type='number'></IonInput>
               </IonItem>
               <button id="btnValidar">VALIDAR</button>
+              <div id="pieRegis">
+                <img src="assets/icon/logo_fjd.jpeg"/>
+              </div>
             </div>
           </div>
+          
         </div>
     </IonPage>
   );
 };
 
-export default Home;
+export default registro;
