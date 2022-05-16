@@ -1,0 +1,23 @@
+#container{
+    background: #ffff;
+}
+#header p{
+    color: #ffff;
+}
+#header{
+    text-align: center;
+    background: rgb(0, 52, 150);
+    height: 60px;
+    top: 0;
+}
+#itemNombre{
+    font-size: 14px;
+    font-weight: bold;
+}
+#itemDetalle{
+    gap: 1rem;
+}
+#descrip{
+    display: flex;
+    gap: 2rem;
+}
