@@ -1,4 +1,4 @@
-import { IonPage, IonInput, IonLabel, IonItem, IonImg } from '@ionic/react';
+import { IonPage, IonInput, IonFooter, IonLabel, IonItem, IonImg } from '@ionic/react';
 import './ingreso.css';
 
 const registro: React.FC = () => {
@@ -9,6 +9,7 @@ const registro: React.FC = () => {
             <img src='assets/icon/logo-conelec_movil.png'/>
           </div>
           <div id="footerIngre">
+            <h2>Nombre Empresa</h2>
             <h3>Bienvenido</h3>
             <div id="itemIngre">
               <IonItem>
@@ -20,12 +21,13 @@ const registro: React.FC = () => {
                 <IonInput type='number'></IonInput>
               </IonItem>
               <button id="btnIngresar">INGRESAR</button>
-              <div id="pieIngre">
-                <img src="assets/icon/logo_fjd.jpeg"/>
-              </div>
+              
             </div>
           </div>
         </div>
+        <IonFooter id="footer">
+          <img src="assets/icon/logo_fjd.jpeg"/>
+        </IonFooter>
     </IonPage>
   );
 };

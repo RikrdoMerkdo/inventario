@@ -1,0 +1,27 @@
+#header{
+    background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(68,89,150,1) 0%, rgba(13,89,193,1) 81%) !important;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+#iconoAv{
+    font-size: 50px;
+    margin: 5px;
+}
+#card{
+    background: rgb(13,89,193,1);
+}
+#itemCard #icono{
+    font-size: 50px;
+}
+#itemCard{
+    display: grid;
+    justify-content: center;
+    color: #ffff;
+}
+#footer{
+    text-align: center;
+    color: rgb(215, 215, 215);
+    font-size: 15px;
+    font-weight: bold;
+}

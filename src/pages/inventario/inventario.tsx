@@ -16,7 +16,7 @@ const inventario: React.FC = () => {
                     <div id="itemsInve">
                         <IonList>
                             <IonItem>
-                                <IonLabel>Material</IonLabel>
+                                <IonLabel position='floating'>Material</IonLabel>
                                 <IonSelect value="" okText="Ok" cancelText="Cancelar" placeholder='Seleccione...'>
                                 <IonSelectOption value="">1040 - CAJA EMBUTIDA PARA MACROMEDIDOR</IonSelectOption>
                                 <IonSelectOption value="">7250 - CABLE DE ALUMINIO TREBOL 3x20/0 + 1/0</IonSelectOption>

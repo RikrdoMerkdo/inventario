@@ -1,5 +1,5 @@
 #containerRegis{
-    background: rgb(0, 52, 150) !important;
+    background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(68,89,150,1) 0%, rgba(13,89,193,1) 81%) !important;
     height: 100%;
 }
 #headerRegis{
@@ -16,14 +16,14 @@ h2{
     font-weight: bold;
 }
 #btnValidar{
-    background: rgb(0, 52, 150);
-    height: 2rem;
-    width: 15rem;
+    background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(68,89,150,1) 0%, rgba(13,89,193,1) 81%) !important;
+    height: 2.2rem;
+    width: 100%;
     color: #ffff;
     font-size: 15px;
     font-weight: bold;
     border-radius: 15px;
-    margin-left: 10% ;
+    /*box-shadow: 5 5 5 0 gray;*/
     margin-top: 20px ;
 }
 #itemRegis{

@@ -5,6 +5,9 @@ import registro from './pages/registro/registro';
 
 import inventario from './pages/inventario/inventario';
 import ingreso from './pages/ingreso/ingreso';
+import menu from './pages/menu/menu';
+
+
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -33,6 +36,7 @@ const App: React.FC = () => (
         <Route path="/registro" component={registro} exact/>
         <Route path="/ingreso" component={ingreso} exact/>
         <Route path="/inventario" component={inventario} exact/>
+        <Route path="/menu" component={menu} exact/>
         <Redirect to="registro"/>
       </IonRouterOutlet>
     </IonReactRouter>

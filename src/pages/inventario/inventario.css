@@ -1,8 +1,6 @@
 #containerInve{
     background: #ffff;
-}
-#header p{
-    color: #ffff;
+    height: 100%;
 }
 #itemNombre{
     font-size: 14px;
@@ -16,8 +14,9 @@
     gap: 2rem;
 }
 #barra{
-    background: rgb(0, 52, 150);
+    background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(68,89,150,1) 0%, rgba(13,89,193,1) 81%) !important;
 }
 p{
     color: #ffff;
+    text-align: center;
 }

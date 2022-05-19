@@ -1,4 +1,4 @@
-import { IonPage, IonInput, IonLabel, IonItem } from '@ionic/react';
+import { IonPage, IonFooter, IonInput, IonLabel, IonItem } from '@ionic/react';
 import './registro.css';
 
 const registro: React.FC = () => {
@@ -28,13 +28,14 @@ const registro: React.FC = () => {
                 <IonInput type='number'></IonInput>
               </IonItem>
               <button id="btnValidar">VALIDAR</button>
-              <div id="pieRegis">
-                <img src="assets/icon/logo_fjd.jpeg"/>
-              </div>
+            
             </div>
           </div>
           
         </div>
+        <IonFooter id="footer">
+          <img src="assets/icon/logo_fjd.jpeg"/>
+        </IonFooter>
     </IonPage>
   );
 };
